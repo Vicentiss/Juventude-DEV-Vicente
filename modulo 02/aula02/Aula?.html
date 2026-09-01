@@ -12,14 +12,18 @@
         <input type="text"
         id="cep"
         name="cep"
-        pattern="[0-9] {5}-[0-9] {3}"
+        pattern="[0-9]{5}-[0-9]{3}"
         title="Formato esperado:
         00000-000">
         <button type="submit">Enviar</button>
     </form>
     <script>
         const formulario = document.querySelector("#form-contato");
-        console.log(formulario)
+
+        formulario.addEventListener("submit", function (event){
+            event.preventDefault();
+            alert("Mensagem enviada com sucesso!");
+        });
     </script>
 </body>
 </html>
