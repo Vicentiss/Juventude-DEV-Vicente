@@ -14,9 +14,13 @@
     <li data-genero="animacao" data-ano="2015">Divertida Mente</li>
     <li data-genero="aventura" data-ano="2001">O Senhor dos Anéis</li>
   </ul>
-
+<button aria-label="Fechar janela">x</button>
  <script>
-    const item = document.querySelector("li");
+    // Missão: use querySelector para encontrar um item da lista,
+    // depois use dataset para ler o valor de um atributo data-*
+    // e imprima no console com console.log.
+    // Exemplo de atributos disponíveis: data-genero e data-ano
+   const item = document.querySelector("li");
     console.log(item.dataset.genero);
 </script>       
 </body>
