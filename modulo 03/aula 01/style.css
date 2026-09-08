@@ -1,0 +1,13 @@
+body {
+  background: #f4f7fb;
+  font-family: Arial;
+}
+.cartao { background: white; }
+#titulo { color: #2563eb; }
+.apresentacao {
+  color: #1e293b
+  background: #dbeafe
+  font-family: arial, snas-serif;
+  font-size: 18px;
+  text-align:center
+}

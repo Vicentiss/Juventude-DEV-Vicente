@@ -1,1 +1,0 @@
-# Juventude-DEV-Vicente
