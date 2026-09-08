@@ -1,13 +1,39 @@
 body {
-  background: #f4f7fb;
+  background: #f5f1f1;
   font-family: Arial;
 }
 .cartao { background: white; }
 #titulo { color: #2563eb; }
+
+
 .apresentacao {
-  color: #1e293b
-  background: #dbeafe
-  font-family: arial, snas-serif;
+  color: #1e293b;
+  background: #dbeafe;
+  font-family: arial, sans-serif;
   font-size: 18px;
-  text-align:center
+  text-align: center;
+}
+
+.musica {
+  color: #ffffff;
+  background: #7c3aed;
+  font-family: georgia, serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+.games {
+  color: #22d3ee;
+  background: #0f172a;
+  font-family: new, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.apresentacao {
+  color: #166534;
+  background: #dcfce7;
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  text-align: left;
 }
